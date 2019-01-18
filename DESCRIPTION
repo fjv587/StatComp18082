@@ -1,0 +1,15 @@
+Package: StatComp18082
+Type: Package
+Title: Three functions for 'Statistical Computing' course
+Version: 0.1.0
+Author: 18082
+Maintainer: 18082 <fjv587@mail.ustc.edu.cn>
+Description: Three function(MCestimate, Jacknife.estimate and chisq_test) are included in this package. 
+License: GPL (>= 2)
+Imports: microbenchmark, knitr, rmarkdown, MASS, bootstrap, boot, DAAG, nortest, RANN, energy, Ball, rootSolve, base, parallel, foreach, rootSolve
+RoxygenNote: 6.1.1
+VignetteBuilder: knitr
+URL: https://github.com/fjv587/StatComp18082
+BugReports: https://github.com/fjv587/StatComp18082/issues
+Suggests: knitr, rmarkdown
+
